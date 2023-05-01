@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Migdali Bolívar</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/69205ef80e.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <picture>
-            <img src="./img/LOGO-removebg.png" alt="">
-        </picture>
-        <a href="#home">Home</a>  
-        <a href="#contact">Contact me</a>   
-    </header>
-<main>
-    <picture>
-        <img src="./img/pexels-helena-lopes-1774879.jpg" alt="parrot">
-    </picture>
-    <section>
-        <h1>Hi I'm Migdali!</h1>
-        <article>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo excepturi incidunt pariatur reiciendis rerum nobis! Iste quo provident, rerum doloremque eligendi earum libero, quos esse aliquam maiores odio ab!</p>
-        </article>
-    </section>
-    <button>esto debe ser un elemento a donde debe ir vinculado un archivo download cv</button> 
-    <section>
-        <h2>Let's talk!</h2>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perferendis neque assumenda saepe maiores ab libero quas, excepturi eaque sequi beatae error accusamus voluptatibus! Quas labore ut illum voluptates dolor?</article>
-    </section>
-    <footer>
-    <img src="./img/github.png" alt="github">
-    <img src="./img/linkedin.png" alt="linkedin">
-    <img src="./img/mail.png" alt="PONER PARA ENVIAR UN MAIL">
-    </footer>
-</main>
 
+<body>
+    <header class="nav">
+            <img src="./img/LOGO-removebg (2) (1).png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house" style="color: #1b6a28;"></i> Home</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-address-card" style="color: #1b6a28;"></i> Contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <img class="img" src="./img/pexels-helena-lopes-1774879 (1).jpg" alt="parrot">
+        <section id="home">
+            <article>
+                <p class="mainTitle">Hi,I'm Migdali</p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quo excepturi incidunt pariatur
+                reiciendis rerum nobis! Iste quo provident, rerum doloremque eligendi earum libero, quos esse
+                aliquam maiores odio ab! 
+                <br>
+                <a class="button" href="https://docs.google.com/document/d/1_214-pZOVqAB7Ff4QNNv50J8wcostopkKFp0lO7b_10/edit?usp=sharing">Download HV</a>
+                <article class="secondArticle">
+                    <p class="secondTitle">Let's talk</p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aut quo itaque eveniet placeat
+                    corporis. Eum, veritatis ab assumenda error magni est vel officiis neque tenetur, modi, voluptatum
+                    soluta dicta?
+                </article>
+        </section>
+        </article>
+        </section>
+        <section id="contact">
+             <picture class="logos">
+                <a href="https://github.com/crisdalithb">
+                    <img class="contact-img" src="./img/github.png" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/migdalicbolivard/">
+                    <img class="contact-img" src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="mailto:crisdalithb@gmail.com?subject=Asunto del correo&amp;body=Cuerpo del correo">
+                    <img class="contact-img" src="./img/mail.png" alt="email">
+                </a>
+             </picture>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Made by: Migdali Bolivar <i class="fa-solid fa-dove fa-beat" style="color: #1b6a28;"></i>
+        </p>
+    </footer>
 </body>
+
 </html>
